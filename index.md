@@ -41,9 +41,8 @@ Our spatial attention formulation is efficient having linear complexity with res
 ![results](images/Synapse_quantitative_results.png)
 
 ## Comparison with SOTA (ACDC)
-<p align="center">
 ![results](images/Acdc_quantitative_results.png)
-</p>
+
 ## Comparison with SOTA (BTCV)
 ![results](images/BTCV_quantitative_results.png)
 
