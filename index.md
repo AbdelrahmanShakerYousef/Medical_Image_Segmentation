@@ -28,7 +28,7 @@ accuracy and efficiency in terms of parameters and FLOPs. Compared to best exist
 
 ![main figure](images/UNETR++_Block_Diagram.jpg)
 
-<p align="justify" style="width:40px;">
+<p align="justify" style="width:740px;">
 Owing to the success of transformer models, recent works study their applicability in 3D medical segmentation tasks. 
 Within the transformer models, the self-attention mechanism is one of the main building blocks that strives to capture long-range dependencies, compared to the local convolutional-based design. However, the self-attention operation has quadratic complexity which proves to be a computational bottleneck, especially in volumetric medical imaging, where the inputs are 3D with numerous slices. 
     
@@ -37,12 +37,20 @@ Our spatial attention formulation is efficient having linear complexity with res
 </p>
 
 
-## Comparison with Previous SOTA
+## Comparison with Previous SOTA (Synapse)
 ![results](images/Synapse_quantitative_results.png)
+
+## Comparison with Previous SOTA (ACDC)
+![results](images/Acdc_quantitative_results.png)
+
+## Comparison with Previous SOTA (BTCV)
+![results](images/BTCV_quantitative_results.png)
 
 ## Qualitative Results (Synapse)
 
 ![results](images/UNETR++_results_fig.jpg)
+
+![results](images/Synapse_res_2.png)
 
 ## Qualitative Results (ACDC)
 
