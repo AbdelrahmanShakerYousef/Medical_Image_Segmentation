@@ -18,10 +18,10 @@
 <p align="center">
 <!-- ![results](images/madds_vs_top_1.png) -->
 <img src="images/intro_fig.jpg" width="800">
-<p align="justify" style="width:100px;">
+<p align="justify" style="width:800px;">
 We propose an efficient hybrid hierarchical architecture for 3D medical image segmentation, named UNETR++, that strives to achieve both better segmentation
 accuracy and efficiency in terms of parameters and FLOPs. Compared to best existing nnFormer, UNETR++ achieves better segmentation performance while significantly reduces the model complexity by over 71%.
-</p>
+
 ## Abstract
 
 
