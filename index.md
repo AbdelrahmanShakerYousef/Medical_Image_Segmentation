@@ -18,7 +18,7 @@
 <p align="center">
 <!-- ![results](images/madds_vs_top_1.png) -->
 <img src="images/intro_fig.jpg" width="800">
-<p align="justify">
+<p align="justify" style="width:100px;">
 We propose an efficient hybrid hierarchical architecture for 3D medical image segmentation, named UNETR++, that strives to achieve both better segmentation
 accuracy and efficiency in terms of parameters and FLOPs. Compared to best existing nnFormer, UNETR++ achieves better segmentation performance while significantly reduces the model complexity by over 71%.
 </p>
@@ -27,7 +27,7 @@ accuracy and efficiency in terms of parameters and FLOPs. Compared to best exist
 
 ![main figure](images/UNETR++_Block_Diagram.jpg)
 
-<p align="justify" width="800">
+<p align="justify">
 Owing to the success of transformer models, recent works study their applicability in 3D medical segmentation tasks. 
 Within the transformer models, the self-attention mechanism is one of the main building blocks that strives to capture long-range dependencies, compared to the local convolutional-based design. However, the self-attention operation has quadratic complexity which proves to be a computational bottleneck, especially in volumetric medical imaging, where the inputs are 3D with numerous slices. 
     
